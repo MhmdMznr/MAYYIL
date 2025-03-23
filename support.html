@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MAYYIL Support</title>
+    <link rel="stylesheet" href="support.css">
+    <link rel="shortcut icon" href="image/cedar-noback.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img class="logo" src="image/MAYYIL.png" alt="logo">
+        <nav>
+            <ul class="navigate">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="all">
+        <div class="overlay">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out to us for any questions or feedback.</p>
+
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+                <div class="rating">
+                    <p>Rate Us:</p>
+                    <div class="stars">
+                        <span data-value="1">★</span>
+                        <span data-value="2">★</span>
+                        <span data-value="3">★</span>
+                        <span data-value="4">★</span>
+                        <span data-value="5">★</span>
+                    </div>
+                    <input type="hidden" id="rating-value" name="rating" value="0">
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="support.js"></script>
+</body>
+</html>
